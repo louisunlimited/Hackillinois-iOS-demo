@@ -11,6 +11,10 @@
 		DF31D3C528F455980063CFF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF31D3C428F455980063CFF1 /* ContentView.swift */; };
 		DF31D3C728F455990063CFF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF31D3C628F455990063CFF1 /* Assets.xcassets */; };
 		DF31D3CB28F455990063CFF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF31D3CA28F455990063CFF1 /* Preview Assets.xcassets */; };
+		DF31D3D428F4BC160063CFF1 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF31D3D328F4BC160063CFF1 /* ContentViewModel.swift */; };
+		DF31D3D628F4C6CE0063CFF1 /* EventCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF31D3D528F4C6CE0063CFF1 /* EventCellView.swift */; };
+		DF31D3D828F4D19D0063CFF1 /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF31D3D728F4D19D0063CFF1 /* EventDetailView.swift */; };
+		DF31D3DA28F4F04F0063CFF1 /* EventDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF31D3D928F4F04F0063CFF1 /* EventDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		DF31D3C628F455990063CFF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF31D3C828F455990063CFF1 /* Hackillinois_iOS_demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hackillinois_iOS_demo.entitlements; sourceTree = "<group>"; };
 		DF31D3CA28F455990063CFF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF31D3D328F4BC160063CFF1 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		DF31D3D528F4C6CE0063CFF1 /* EventCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCellView.swift; sourceTree = "<group>"; };
+		DF31D3D728F4D19D0063CFF1 /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
+		DF31D3D928F4F04F0063CFF1 /* EventDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				DF31D3C228F455980063CFF1 /* Hackillinois_iOS_demoApp.swift */,
+				DF31D3D528F4C6CE0063CFF1 /* EventCellView.swift */,
+				DF31D3D728F4D19D0063CFF1 /* EventDetailView.swift */,
+				DF31D3D928F4F04F0063CFF1 /* EventDetailViewModel.swift */,
 				DF31D3C428F455980063CFF1 /* ContentView.swift */,
+				DF31D3D328F4BC160063CFF1 /* ContentViewModel.swift */,
 				DF31D3C628F455990063CFF1 /* Assets.xcassets */,
 				DF31D3C828F455990063CFF1 /* Hackillinois_iOS_demo.entitlements */,
 				DF31D3C928F455990063CFF1 /* Preview Content */,
@@ -140,7 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF31D3C528F455980063CFF1 /* ContentView.swift in Sources */,
+				DF31D3D828F4D19D0063CFF1 /* EventDetailView.swift in Sources */,
+				DF31D3DA28F4F04F0063CFF1 /* EventDetailViewModel.swift in Sources */,
 				DF31D3C328F455980063CFF1 /* Hackillinois_iOS_demoApp.swift in Sources */,
+				DF31D3D428F4BC160063CFF1 /* ContentViewModel.swift in Sources */,
+				DF31D3D628F4C6CE0063CFF1 /* EventCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
